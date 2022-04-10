@@ -1,0 +1,25 @@
+.inlineblock {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar {
+  background-color: black;
+  color: white;
+  padding: 10px 0;
+}
+
+.inlineblock > div {
+  margin: 0 12%;
+}
+button {
+  background-color: rgb(52, 140, 203);
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 20%;
+}
+.logo {
+  font-weight: bold;
+  color: red;
+}
